@@ -16,7 +16,6 @@ dependencies:
   - libxcb=1.17.0=h9b100fa_0
   - ncurses=6.5=h7934f7d_0
   - openssl=3.0.17=h5eee18b_0
-  - pip=25.1=pyhc872135_2
   - pthread-stubs=0.3=h0ce48e5_1
   - python=3.11.13=h1a3bd86_0
   - readline=8.3=hc2a1206_0
@@ -60,7 +59,7 @@ dependencies:
       - distro==1.9.0
       - dotenv==0.9.9
       - executing==2.2.0
-      - fastjsonschema==2.21.1
+      - fastjsonschema==2.21.2
       - filelock==3.19.1
       - flask==3.1.1
       - fqdn==1.5.1
@@ -97,7 +96,7 @@ dependencies:
       - jupyter-lsp==2.2.6
       - jupyter-server==2.16.0
       - jupyter-server-terminals==0.5.3
-      - jupyterlab==4.4.5
+      - jupyterlab==4.4.6
       - jupyterlab-pygments==0.3.0
       - jupyterlab-server==2.27.3
       - jupyterlab-widgets==3.0.15
@@ -149,12 +148,14 @@ dependencies:
       - pexpect==4.9.0
       - pgvector==0.3.6
       - pillow==11.3.0
+      - pip==25.2
+      - pip-autoremove==0.10.0
       - platformdirs==4.3.8
       - prometheus-client==0.22.1
       - prompt-toolkit==3.0.51
       - propcache==0.3.2
       - psutil==7.0.0
-      - psycopg==3.2.9
+      - psycopg-binary==3.2.9
       - psycopg-pool==3.2.6
       - ptyprocess==0.7.0
       - pure-eval==0.2.3
