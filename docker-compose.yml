@@ -1,0 +1,12 @@
+services:
+
+  vs-db: # vector store database based in postgres
+    image: pgvector/pgvector:pg16
+
+    ports:
+      - 8888:5432
+
+    env_file:
+      - .env
+
+    container_name: pgvector-container
